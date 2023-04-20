@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    height: 600px;
+    width: 100%;
+    background: url(../assets/background1.jpg) no-repeat center center/cover;
+}
+
+
+.main2 {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: -600px;
+}
+
+/**************** NavBar ******************/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.logo1 {
+    height: 100px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.home {
+    margin: 30px 70px 30px -100px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+
+    display: inline;
+    margin: 1rem;
+
+}
+
+ul > li > a {
+    text-decoration: none;
+}
+
+.home-text {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(156, 155, 155);
+
+}
+
+.home-text:hover {
+    color: white;
+}
+
+
+#down-arrow {
+    font-size: 20px;
+    color: white;
+}
+
+
+.dropdown-menu {
+    z-index: 9999999;
+}
+
+.dropdown {
+    color: black;
+    font-weight: 600;
+    display: block;
+    padding: 0px 20px;
+
+}
+
+.dropdown:hover {
+    color: blue;
+}
+
+
+/* mobile-nav  */
+
+.mobile-nav {
+    display: none;
+  }
+
+.shine {
+    height: auto;
+    width: 100%;
+    margin-top: -420px;
+}
+
+.Career {
+    color: white;
+    font-size: 74px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn1 {
+    height: 50px;
+    width: 260px;
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 25px;
+    text-decoration: none;
+    display: block;
+    outline: none;
+}
+
+.btn1:hover {
+    background-color: red;
+    color: white;
+}
+
+.para {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circle {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+    padding: 20px;
+}
+
+.call {
+    height: auto;
+    width: 100%;
+    margin: 10px;
+}
+
+.box {
+    margin-right: auto;
+    margin-left: auto;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: rgba(255, 125, 39, 0.918);
+    padding: 30px;
+}
+
+
+#icon {
+    font-size: 100px;
+    color: white;
+    font-weight: 200;
+}
+
+.head {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 16px;
+    padding: 10px;
+    color: gray;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/****************** About ********************/
+
+.nxt {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-color: rgb(235, 235, 235);
+    padding: 100px 50px;
+}
+
+.left {
+    height: auto;
+    width: 33%;
+}
+
+.about {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(61, 58, 58);
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    padding-left: 80px;
+}
+
+.right {
+    height: auto;
+    width: 67%;
+}
+
+.haunt {
+    font-size: 18px;
+    color: rgb(92, 90, 90);
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/********************* Course **********************/
+
+.top {
+    height: auto;
+    width: 100%;
+}
+
+.top-course {
+    font-size: 50px;
+    padding: 50px 60px;
+    color: black;
+    text-align: left;
+    font-weight: 600px;
+}
+
+.sub-course {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+}
+
+.course {
+    height: auto;
+    width: 50%;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px 0px rgb(131, 130, 130);
+}
+
+.sub-course-under {
+    display: flex;
+}
+
+.course-name {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.course-description {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.course-duration {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 30px;
+    margin-top: 10px;
+}
+
+.btn2 {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(247, 107, 15, 0.918);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.btn2:active {
+    transform: scale(0.8);
+}
+
+
+/*************************** Mission **********************/
+
+.mission {
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgb(235, 235, 235);
+}
+
+.our {
+    font-size: 52px;
+    color: black;
+    font-weight: 500;
+    padding-left: 60px;
+    padding-top: 80px;
+}
+
+.sub-mission {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-align: justify;
+    line-height: 1.8;
+    padding: 20px 100px 80px 100px;
+}
+
+/*********************** Demo Class **************************/
+
+.then {
+    height: auto;
+    width: 100%;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.then-left {
+    height: auto;
+    width: 50%;
+    margin-left: 120px;
+    padding: 10px 50px;
+}
+
+.questions {
+    font-size: 44px;
+    color: black;
+    text-align: left;
+    font-weight: 600px;
+}
+
+.ask {
+    height: auto;
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+    padding: 20px;
+    margin-top: 50px;
+}
+.then-right {
+    height: auto;
+    width: 50%;
+    margin-right: 120px;
+    padding: 10px 50px;
+}
+
+.demo {
+    font-size: 40px;
+    font-weight: 400px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form-div {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.form-label {
+    display: block;
+    text-align: left;
+    color: rgb(20, 20, 20);
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 500px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(48, 47, 47);
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    border: 1px solid rgb(182, 180, 180);
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: rgb(170, 167, 167);
+}
+
+select[name="fundamental"] {
+    width: 500px;
+    padding: 10px 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(65, 64, 64);
+    font-size: 15px;
+    color: rgb(61, 60, 60);
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.btn3 {
+    color: white;
+    border: none;
+    background: rgba(247, 107, 15, 0.918);
+    padding: 12px 45px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.btn3:active {
+    transform: scale(0.9);
+}
+
+
+/******************* footer *************************/
+
+.last {
+    height: auto;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.last-sub > a {
+    text-decoration: none;
+}
+
+.last-up {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0px 20px 0px;
+    padding: 80px 100px 0px 100px;
+
+}
+
+.last-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.navigation {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+    padding: 10px;
+}
+
+.navigation:hover {
+    color: blue;
+}
+
+.add {
+    font-size: 16px;
+    font-style: bold;
+    line-height: 1.8;
+    padding-top: 10px;
+}
+
+.icon {
+    height: auto;
+    width: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.subicon {
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    padding: 3px;
+}
+
+#facebook {
+    background-color: rgb(44, 149, 249);
+}
+
+#whatsapp {
+    background-color: rgb(27, 225, 27);
+}
+
+#youtube {
+    background-color: red;
+}
+
+.logo2 {
+    height: 100px;
+    width: 250px;
+}
+
+
+.copyright {
+    height: auto;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}

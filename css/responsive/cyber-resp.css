@@ -1,0 +1,580 @@
+/********** Responsive for max-width: 290px ***********/
+
+@media only screen and (max-width:290px) {
+
+
+    /**************** NavBar ******************/
+    nav{
+        display: block;
+        padding: 0px 20px;
+    }
+
+    .logo1 {
+        height: 70px;
+        width: 180px;
+    }
+
+    .home {
+        height: 350px;
+        width: 220px;
+        font-size: 40px;
+        padding: 20px 10px;
+        background-color: black;
+        backdrop-filter:saturate(100%);
+        z-index: 999;
+        transition: all .8s;
+        margin-left: -400px;
+        margin-top: 10px;
+        position: fixed;
+      }
+
+    li {
+        text-align: center;
+        display: block;
+        margin: 10px 10px 10px -30px;
+    }
+
+    .dropdown-menu {
+        height: 220px;
+        width: 160px;
+    }
+
+    .dropdown {
+        font-size: 12px;
+        padding: 10px;
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .home-text {
+        font-size: 16px;
+    }  
+
+    .mobile-menu {
+        margin-left: 10px;
+      }
+
+      /************** mobile-nave  ****************/
+  
+    .mobile-nav {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background-color: rgb(61, 144, 223);
+        padding: 7px 10px;
+        font-size: 24px;
+        cursor: pointer;
+        display: block;
+        outline: none;
+        color: white;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 999;
+        
+    }
+    
+    .heading{
+        font-size: 24px;
+        margin-top: 100px;
+    }
+
+    /***************************** web *******************************/
+
+    .nxt {
+        padding: 0px 10px 50px 10px;
+    }
+
+    .learn {
+        font-size: 22px;
+        margin-top: 50px;
+    }
+
+    .text {
+        font-size: 14px;
+        text-indent: -5px;
+    }
+
+    .syllabus-under{
+        padding: 0px;
+    }
+
+    #syl-icon {
+        font-size: 12px;
+    }
+
+    .syl-text {
+        font-size: 10px;
+    }
+
+
+    /******************* footer *************************/
+
+    .last-up {
+        display: block;
+        padding: 0px 30px;
+        margin: 0px;
+    }
+
+    .last-heading{
+        padding-top: 30px;
+    }
+
+    .navigation {
+        font-size: 16px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .icon {
+        margin: 20px 0px;
+    }
+
+    .logo2 {
+        height: 70px;
+        width: 180px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        padding: 10px 20px; 
+    }
+}
+
+
+
+
+
+/********** Responsive for max-width: 380px ***********/
+
+
+@media only screen and (min-width:291px) and (max-width:380px) {
+
+    /**************** NavBar ******************/
+    nav{
+        display: block;
+        padding: 0px 20px;
+    }
+
+    .logo1 {
+        height: 80px;
+        width: 200px;
+    }
+
+    .home {
+        height: 350px;
+        width: 300px;
+        font-size: 40px;
+        padding: 20px 10px;
+        background-color: black;
+        backdrop-filter:saturate(100%);
+        z-index: 999;
+        transition: all .8s;
+        margin-left: -400px;
+        margin-top: 10px;
+        position: fixed;
+      }
+
+    li {
+        text-align: center;
+        display: block;
+        margin: 10px 10px 10px -30px;
+    }
+
+    .dropdown-menu {
+        height: 230px;
+        width: 200px;
+    }
+
+    .dropdown {
+        font-size: 14px;
+        padding: 10px;
+        text-align: left;
+        padding-left: 70px;
+    }
+
+    .home-text {
+        font-size: 18px;
+    }  
+
+    .mobile-menu {
+        margin-left: 20px;
+      }
+  
+    /************** mobile-nave  ****************/
+  
+    .mobile-nav {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background-color: rgb(61, 144, 223);
+        padding: 7px 10px;
+        font-size: 24px;
+        cursor: pointer;
+        display: block;
+        outline: none;
+        color: white;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 999;
+        
+    }
+
+    .heading{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+
+    /***************************** web *******************************/
+
+    .nxt {
+        padding: 0px 20px 50px 30px;
+    }
+
+    .learn {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+
+    .text {
+        font-size: 16px;
+        text-indent: -10px;
+    }
+
+    .syllabus-under{
+        padding: 0px;
+    }
+
+    #syl-icon {
+        font-size: 16px;
+    }
+
+    .syl-text {
+        font-size: 14px;
+    }
+
+
+    /*********************** footer *************************/
+
+    .last-up {
+        display: block;
+        padding: 0px 60px;
+        margin: 0px;
+    }
+
+    .last-heading{
+        padding-top: 30px;
+    }
+
+    .navigation {
+        font-size: 16px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .icon {
+        margin: 20px 0px;
+    }
+
+    .logo2 {
+        height: 80px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .copyright {
+        font-size: 14px;
+        padding: 10px 30px; 
+    }
+}
+
+
+
+
+
+/********** Responsive for max-width: 420px ***********/
+
+
+
+@media only screen and (min-width:381px) and (max-width:420px) {
+
+
+    /**************** NavBar ******************/
+    nav{
+        display: block;
+        padding: 0px 20px;
+    }
+
+    .logo1 {
+        height: 80px;
+        width: 200px;
+    }
+
+    .home {
+        height: 350px;
+        width: 300px;
+        font-size: 40px;
+        padding: 20px 10px;
+        background-color: black;
+        backdrop-filter:saturate(100%);
+        z-index: 999;
+        transition: all .8s;
+        margin-left: -400px;
+        margin-top: 10px;
+        position: fixed;
+      }
+
+    li {
+        text-align: center;
+        display: block;
+        margin: 10px 10px 10px -30px;
+    }
+
+    .dropdown-menu {
+        height: 230px;
+        width: 200px;
+    }
+
+    .dropdown {
+        font-size: 14px;
+        padding: 10px;
+        text-align: left;
+        padding-left: 70px;
+    }
+
+    .home-text {
+        font-size: 18px;
+    }  
+
+    .mobile-menu {
+        margin-left: 40px;
+      }
+  
+    /************** mobile-nave  ****************/
+  
+    .mobile-nav {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background-color: rgb(61, 144, 223);
+        padding: 7px 10px;
+        font-size: 24px;
+        cursor: pointer;
+        display: block;
+        outline: none;
+        color: white;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 999;
+        
+    }
+    
+    .heading{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    /***************************** web *******************************/
+
+    .nxt {
+        padding: 0px 30px 50px 30px;
+    }
+
+    .learn {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+
+    .text {
+        font-size: 16px;
+        text-indent: -10px;
+    }
+
+    .syllabus-under{
+        padding: 0px;
+    }
+
+    #syl-icon {
+        font-size: 16px;
+    }
+
+    .syl-text {
+        font-size: 14px;
+    }
+
+
+    /******************* footer *************************/
+
+    .last-up {
+        display: block;
+        padding: 0px 80px;
+        margin: 0px;
+    }
+
+    .last-heading{
+        padding-top: 30px;
+    }
+
+    .navigation {
+        font-size: 16px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .icon {
+        margin: 20px 0px;
+    }
+
+    .logo2 {
+        height: 80px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .copyright {
+        font-size: 14px;
+        padding: 10px 30px; 
+    }
+}
+
+
+
+
+
+
+
+/********** Responsive for max-width: 780px ***********/
+
+
+
+@media only screen and (min-width:421px) and (max-width:780px) {
+
+    /**************** NavBar ******************/
+    nav{
+        padding: 0px 40px;
+    }
+
+    .logo1 {
+        height: 80px;
+        width: 200px;
+    }
+
+    .home {
+        margin: 30px 20px;
+    }
+
+    .home-text {
+        font-size: 18px;
+    }    
+
+    .heading{
+        font-size: 50px;
+        margin-top: 130px;
+    }
+
+    /***************************** web *******************************/
+
+    .nxt {
+        padding: 0px 50px;
+    }
+
+
+    /******************* footer *************************/
+
+    .last-up {
+        padding: 50px 20px 0px 20px;
+        margin: 0px;
+    }
+
+    .logo2 {
+        height: 80px;
+        width: 200px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+/********** Responsive for max-width: 830px ***********/
+
+
+@media only screen and (min-width:781px) and (max-width:830px) {
+
+    /**************** NavBar ******************/
+    nav {
+        padding: 0px 50px;
+    }
+
+    .logo1 {
+        height: 80px;
+        width: 200px;
+    }
+
+    .home {
+        margin: 30px 20px;
+    }
+
+    .home-text {
+        font-size: 18px;
+    }
+
+    .heading {
+        font-size: 60px;
+        margin-top: 130px;
+    }
+
+    /***************************** web *******************************/
+
+    .nxt {
+        padding: 0px 50px;
+    }
+
+    /******************* footer *************************/
+
+    .last-up {
+        padding: 50px 20px 0px 20px;
+        margin: 0px;
+    }
+
+    .logo2 {
+        height: 80px;
+        width: 200px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+/********** Responsive for max-width: 1024px ***********/
+
+
+@media only screen and (min-width:831px) and (max-width:1024px) {
+
+    /**************** NavBar ******************/
+    nav {
+        padding: 0px 50px;
+    }
+
+    .nxt {
+        padding: 0px 100px;
+    }
+
+    /******************* footer *************************/
+
+    .last-up {
+        padding: 80px 0px 0px 0px;
+        margin: 0px;
+    }
+}

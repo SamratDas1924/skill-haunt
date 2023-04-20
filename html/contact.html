@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - Skill Haunt</title>
+    </head>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/responsive/contact-resp.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+        crossorigin="anonymous"
+    >
+    <body>
+        <!---------------- NavBar -------------------->
+        <div class="main">
+            <nav>
+                <img src="../assets/logo-1.png" alt="" class="logo1">
+                <div class="home">
+                    <ul>
+                        <li>
+                            <a href="../index.html" class="home-text" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="home-text">About</a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="home-text"
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Course
+                                <i class="bx bx-chevron-down" id="down-arrow"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown" href="web.html">Web Development</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown" href="digital.html">Digital Marketing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown" href="tax.html">Tax & Accounts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown" href="cyber.html">Cyber Security</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="home-text">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="heading">Contact Us</h1>
+        </div>
+
+        <!-- mobile-nav  -->
+        <div class="mobile-nav">
+            <i class="bx bx-menu" onclick="cli1()"></i>
+        </div>
+
+        
+        <div class="main2"></div>
+
+
+<!------------------------------ contact ---------------------------------->
+
+        <div class="nxt">
+            <div class="nxt-under" id="left">
+                <p class="text">You can Contact with Us. We are ready to help you.</p>
+                <div class="up">
+                    <div class="down">
+                        <i class="bx bx-current-location" id="icon"></i>
+                        <span id="add">Our Address</span>
+                        <p class="para">Maya Apartment,  124/112, Arabinda Nagar Road, Belgharia, Kolkata – 700083</p>
+                    </div>
+                    <div class="down">
+                        <i class="bx bx-phone" id="icon"></i>
+                        <span id="add">Phone No.</span>
+                        <p class="para">
+                            +91-9874334053
+                            <br>
+                            +91-9836557125
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="nxt-under" id="right">
+                <form>
+                    <h2 class="share">Share Your Query With Us</h2>
+                    <div class="form">
+                        <div class="form-div">
+                            <label for="" class="form-label">Name</label>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="form-div">
+                            <label for="" class="form-label">Number</label>
+                            <input type="text" placeholder="Contact Number">
+                        </div>
+                        <div class="form-div">
+                            <label for="" class="form-label">Message</label>
+                            <input type="text" placeholder="Write a Text Message" id="message">
+                        </div>
+                        <br>
+                        <center>
+                            <a href="" class="btn4">SEND</a>
+                        </center>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!----------------------- footer ------------------>
+        <div class="last">
+            <div class="last-up">
+                <div class="last-sub">
+                    <h2 class="last-heading">MAIN NAVIGATION</h2>
+                    <a href="../index.html">
+                        <h4 class="navigation">Home</h4>
+                    </a>
+                    <a href="about.html">
+                        <h4 class="navigation">About</h4>
+                    </a>
+                    <a href="#">
+                        <h4 class="navigation">Contact US</h4>
+                    </a>
+                </div>
+                <div class="last-sub">
+                    <h2 class="last-heading">QUICK LINKS</h2>
+                    <center>
+                        <div class="icon">
+                            <a href="">
+                                <div class="subicon" id="facebook">
+                                    <i class="bx bxl-facebook"></i>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="subicon" id="whatsapp">
+                                    <i class="bx bxl-whatsapp"></i>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="subicon" id="youtube">
+                                    <i class="bx bxl-youtube"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </center>
+                </div>
+                <div class="last-sub">
+                    <img src="../assets/logo-1.png" alt="" class="logo1">
+                    <center>
+                        <p class="add">Maya Apartment,  124/112,
+                            <br> Arabinda Nagar Road,
+                            <br> Belgharia, Kolkata – 700083
+                            <br>
+                            Call :+91-9874334053
+                            <br> &nbsp; &nbsp; &nbsp; &nbsp; +91-9836557125
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <div class="last-down">
+                <p class="copyright">Copyright © 2022 | Powered by Skill Haunt [ Designed and Developed by Samrat Das ]</p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <script src="../js/contact.js"></script>
+    </body>
+</html>
